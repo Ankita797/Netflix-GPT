@@ -14,6 +14,9 @@ If you are developing a production application, we recommend using TypeScript wi
 
 #Netflix GPT
 create vite in react
+header
+login form
+signup form
 
 #Features
 Login/Signup ->sign In / signup
