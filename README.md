@@ -17,6 +17,14 @@ create vite in react
 header
 login form
 signup form
+form validation
+useRef Hook
+firebase setup
+deplying our app to production
+create signup user account
+implement sign in user Api
+created Redux store with userSlice
+
 
 #Features
 Login/Signup ->sign In / signup
