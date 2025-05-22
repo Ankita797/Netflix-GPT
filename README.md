@@ -24,7 +24,16 @@ deplying our app to production
 create signup user account
 implement sign in user Api
 created Redux store with userSlice
-
+unsubscribed to the onAuthstatechanged
+get data from TMDB and make api CALL
+custom hook for now playing movies api
+create movie slice
+update store with movie data
+planning for maincontainer and secondaryconatiner
+fetch data for trailer
+update store with trailer with video data
+embeded th yt vdo and make it autoplay and mute
+tailwind classes to make main container look awesome
 
 #Features
 Login/Signup ->sign In / signup

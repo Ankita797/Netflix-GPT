@@ -7,13 +7,13 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../utils/firebase";
-import { useNavigate } from "react-router-dom";
+
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
 
-  const navigate = useNavigate();
+  
   
 
   const name = useRef(null);
@@ -36,10 +36,9 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: enteredName,
-            photoURL: "https://example.com/jane-q-user/profile.jpg",
           })
             .then(() => {
-              navigate("/browse");
+              // navigate("/browse");
             })
             .catch((error) => {
               setErrorMessage(error.message);
@@ -54,7 +53,7 @@ const Login = () => {
         .then((userCredential) => {
           const user = userCredential.user;
           console.log(user);
-          navigate("/browse");
+          // navigate("/browse");
         })
         .catch((error) => {
           console.error("Login error:", error);
